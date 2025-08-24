@@ -2106,7 +2106,7 @@ $tw.boot.decryptEncryptedTiddlers = function(callback) {
 	var encryptedArea = document.getElementById("encryptedStoreArea");
 	if(encryptedArea) {
 		var encryptedText = encryptedArea.innerHTML,
-			prompt = "Enter a password to decrypt this TiddlyWiki";
+			prompt = "Decrypt?";
 		// Prompt for the password
 		if($tw.utils.hop($tw.boot,"encryptionPrompts")) {
 			prompt = $tw.boot.encryptionPrompts.decrypt;
